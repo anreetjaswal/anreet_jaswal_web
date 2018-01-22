@@ -1,0 +1,73 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: #36a6bf
+}
+
+body {
+    background-image: url(bg.jpg);
+    margin: 0;
+}
+
+button {
+    padding: 5px 50px;
+    border: 1px solid #4ad589;
+    cursor: pointer;
+    background-color: transparent;
+    background: no-repeat;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 5px;
+
+}
+
+button: hover span {
+    color: #23091e;
+}
+
+button: focus {
+    outline: dotted;
+}
+
+button: after {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 100% left: -215%;
+    top: 0;
+    background: black;
+    transform: skew(45deg);
+    -webkit-transform: skew(45deg) transition: 0.45s;
+    -webkit-transition: 0.45s;
+
+}
+
+button: hover: after {
+    left: -15%;
+}
+
+button span {
+    position: relative;
+    z-index: 3;
+    font-size: 17pt;
+    color: #36a6bf;
+    font-family: sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+
+}
+
+div {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+
+}

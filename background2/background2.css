@@ -1,0 +1,30 @@
+body {
+ color: #000000;
+ background: url(images/halo.png) top right no-repeat,
+ url(images/stripe.png) top left repeat-y, url(images/brushed_dark.png);
+ margin: 20px;
+ padding: 0px;
+ font: 1em/1.7 Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+ margin-top: 70px;
+}
+
+h2 {
+ background: url(images/haloicon.png) 10px center no-repeat, url(images/brushed_light.png);
+ margin-left: -10px;
+ margin-right: -20px;
+ padding: 3px;
+ padding-left: 55px;
+}
+
+footer {
+ background-image: url(images/brushed_light.png);
+ margin-left: -100px;
+ margin-right: -20px;
+ padding-left: 10px;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}

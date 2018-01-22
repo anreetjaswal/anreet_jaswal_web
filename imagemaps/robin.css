@@ -1,0 +1,35 @@
+h1
+{s
+    text-align: center;
+    color: yellow;
+    background-color: red;
+}
+img
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+}
+h2
+{
+    background-color: red;
+    text-align: center;
+    color: yellow;
+}
+body
+{
+    font: 0.85em/1.3 Verdana, Tahoma, sans-serif;
+    background: url(logorobin.jpg)left repeat-y, url(logorobin.jpg)right repeat-y, url(logorobin.jpg)bottom repeat-x;
+    margin: 20px;
+    padding: 0px;
+    margin-right: 300px;
+    margin-left: 300px;
+    background-color: black;
+    
+}
+p
+{
+    text-indent: 20px;
+    color: #E32222;
+}
+

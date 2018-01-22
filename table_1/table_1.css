@@ -1,0 +1,27 @@
+table 
+{ 
+ caption-side: bottom; 
+}
+
+caption
+{
+text-align: left;
+font-style: italic;
+font-size: smaller;color: #33dd33;
+}
+
+table 
+{ 
+caption-side: bottom;
+border: 1px solid #338ba6; 
+}
+td, th
+{
+ border: 1px dotted #99ccff; 
+}
+table 
+{ 
+caption-side: bottom;
+border: 6px solid #338ba6;
+border-collapse: collapse; 
+} 

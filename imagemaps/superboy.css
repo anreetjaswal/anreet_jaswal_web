@@ -1,0 +1,35 @@
+h1
+{
+    text-align: center;
+    color: black;
+    background-color: red;
+}
+img
+{
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}
+h2
+{
+    background-color: red;
+    text-align: center;
+    color: black;
+}
+body
+{
+    font: 0.85em/1.3 Verdana, Tahoma, sans-serif;
+    background-image: url(yjbg.jpg);
+    margin: 20px;
+    padding: 0px;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    background-position: left;
+    margin-right: 0px;
+    margin-left: 225px;
+}
+p
+{
+    color: red;
+    text-indent:20px;
+}

@@ -1,0 +1,49 @@
+body{
+    font-size:small;
+}
+
+h1,h2 { color:#007e7e;
+}
+h1 {font-size: 150%;
+}
+h2 {font-size: 130%;
+}
+p{
+line-height: 1.6em;
+}
+.guarantee {
+    background-color:#a7cece;
+    border-width:3px;
+    border-color:white;
+    border-style: dotted;
+    font-family: georgia, "Times New Roman", Times, serif;
+    line-height: 1.9em;
+    color:#444444;
+    padding:25px;
+    margin-left:30px;
+    background-image: url(images/star.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-left:80px;
+}
+
+a#elixirs:link{
+    color:#007e7e;
+}
+a#elixirs:visited{
+    color:#333333;
+}
+a#elixirs:hover{
+    color:white;
+    background-color:#007e7e;
+}
+a#elixirs:active{
+    color:black;
+    background-color:#999999;
+}
+a#directions:link{
+    color:#007e7e;
+}
+a#directions:visited{
+    color:black;
+}
