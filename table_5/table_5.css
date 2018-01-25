@@ -1,0 +1,11 @@
+col:nth-child(odd)
+{
+ background-color: #80c9ff;
+ color: #000;
+}
+
+col:nth-child(even)
+{
+ background-color: #bfe4ff;
+ color: #000;
+}

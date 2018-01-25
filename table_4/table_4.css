@@ -1,0 +1,29 @@
+tr:nth-child(odd)
+{
+    background-color: #dfe7f2;
+    color: #000000;
+}
+tr:nth-child(even)
+{
+    background-color: #fffae0;
+    color: #000000;
+}
+tr.altrow
+{
+    background-color: #dfe7f2;
+    color: #000;
+}
+tr:last-child
+{
+    border-bottom: 5px solid #000000;
+}
+tr:first child
+{
+    border-bottom: 5px solid #000000;
+    border-top: 5px solid #000000;
+}
+tr:hover
+{
+    background-color: #000000;
+    color: white;
+}

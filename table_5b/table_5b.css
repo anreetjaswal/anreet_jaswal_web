@@ -1,0 +1,10 @@
+colgroup:nth-child(odd)
+{
+    background-color: #00cc66;
+    color: #000;
+}
+colgroup:nth-child(even)
+{
+    background-color: #99ff99;
+    color: #000;
+}
