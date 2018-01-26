@@ -1,11 +1,10 @@
-html,
 body {
     height: 100%;
     width: 100%;
 }
 
 h1 {
-    color: #36a6bf
+    color: yellow;
 }
 
 body {
@@ -15,7 +14,7 @@ body {
 
 button {
     padding: 5px 50px;
-    border: 1px solid #4ad589;
+    border: 1px solid yellow;
     cursor: pointer;
     background-color: transparent;
     background: no-repeat;
@@ -54,7 +53,7 @@ button span {
     position: relative;
     z-index: 3;
     font-size: 17pt;
-    color: #36a6bf;
+    color: yellow;
     font-family: sans-serif;
     font-weight: 400;
     transition: 0.3s;
